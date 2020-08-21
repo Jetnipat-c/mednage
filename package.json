@@ -1,12 +1,14 @@
 {
-  "name": "psu-procuremen-system-fronted",
+  "name": "mednage",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next -p 8080",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "deploy": "npm run build && npm run export"
   },
   "keywords": [],
   "author": "",
